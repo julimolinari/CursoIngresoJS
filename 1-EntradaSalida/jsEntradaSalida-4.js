@@ -4,6 +4,6 @@
 */
 function mostrar()
 {
-
+   var dato = prompt("ingrese dato");
 }
 
