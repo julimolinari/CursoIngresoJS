@@ -10,5 +10,50 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  */
 function CalcularPrecio () 
 {
+   
  	
 }
+
+
+/*
+    var cantLamp = parseInt(document.getElementById("Cantidad").value);
+    var precio = 35;
+    var precios = precio * cantLamp;
+    //var precioDesc = parseInt(document.getElementById("precioDescuento").value);
+    var marca = document.getElementById("Marca").value;
+
+    if(cantLamp >= 6){
+        document.getElementById("precioDescuento").value = precios -(precios*50 / 100);
+    }else{
+        if(cantLamp == 5 && marca=="ArgentinaLuz"){
+            document.getElementById("precioDescuento").value = precios - (precios*40 / 100);
+        }else{
+            if(cantLamp == 5 && marca !="ArgentinaLuz"){
+                document.getElementById("precioDescuento").value = precios - (precios *30 / 100);
+            }else{
+                if(cantLamp==4 && (marca=="ArgentinaLuz" || marca=="FelipeLamparas")){
+                    document.getElementById("precioDescuento").value = precios - (precios *25 / 100);
+                }else{
+                    if(cantLamp==4 && marca!="ArgentinaLuz" && marca!="FelipeLamparas"){
+                        document.getElementById("precioDescuento").value = precios - (precios *20 / 100);
+                    }else{
+                        if(cantLamp == 3 && marca == "ArgentinaLuz"){
+                            document.getElementById("precioDescuento").value = precios - (precios *15 / 100);
+                        }else{
+                            if(cantLamp == 3 && marca == "FelipeLamparas"){
+                                document.getElementById("precioDescuento").value = precios - (precios * 10 / 100);
+                            }else{
+                                if(cantLamp==3 && marca!="ArgentinaLuz" && marca!="FelipeLamparas"){
+                                    document.getElementById("precioDescuento").value = precios - (precios *5 / 100);
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+if((document.getElementById("precioDescuento").value) > 120){
+                document.getElementById("precioDescuento").value =parseInt(document.getElementById("precioDescuento").value) + parseInt((document.getElementById("precioDescuento").value)  * 10 /100);
+                document.getElementById("precioDescuento").value=("Usted pagó " +(document.getElementById("precioDescuento").value  * 10 /100) + " de impuesto" );
+}*/
