@@ -18,7 +18,7 @@ function ComenzarIngreso ()
 	 
 	
 	edad = parseInt (prompt("Ingrese edad: "));
-													
+	
 	
 	
 	while(edad < 18 || edad > 90 || isNaN(edad)){
@@ -78,4 +78,38 @@ function ComenzarIngreso ()
 		
 	}
 	document.getElementById("Sueldo").value= sueldo;
+	
+	
+	legajo =parseInt(prompt("Ingrese el número de legajo: "),10);
+	
+	document.getElementById("Legajo").value = legajo;
+	
+	while(legajo>9999){
+		alert("Número de legajo inválido: ");
+		legajo =parseInt(prompt("Ingrese el número de legajo: "),10);
+	}
+	
+	
+	
+	nacionalidad = prompt("Ingrese nacionalidad “A” para argentinos, “E” para extranjeros, “N” para nacionalizados: ");
+	
+	while(nacionalidad != "A" && nacionalidad != "E" && nacionalidad !="N"){
+		alert("Nacionalidad inválida");
+		nacionalidad = prompt("Ingrese nacionalidad válida “A” para argentinos, “E” para extranjeros, “N” para nacionalizados: ");
+		
+	}
+	
+	switch (nacionalidad){
+		case "A":
+		document.getElementById("Nacionalidad").value = "Argentino";
+		break;
+		
+		case "E":
+		document.getElementById("Nacionalidad").value = "Extranjero";
+		
+		case "N":
+		document.getElementById("Nacionalidad").value = "Nacionalizado";
+		
+	}
+	
 }
