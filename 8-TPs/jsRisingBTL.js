@@ -18,7 +18,7 @@ function ComenzarIngreso ()
 	 
 	
 	edad = parseInt (prompt("Ingrese edad: "));
-	
+													
 	
 	
 	while(edad < 18 || edad > 90 || isNaN(edad)){
